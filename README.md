@@ -1,5 +1,13 @@
 # helm-charts
 
+## What to do
+
+1. Delete this repository because it has only main branch
+
+2. So all you need to do after using this GitHub Actions is just push your Helm chart files under charts directory. Then GitHub Actions make packaged Helm chart, release, and update index.yaml on gh-pages branch, which is the branch served by GitHub Pages that we set up in the above step.
+3. https://nakamasato.medium.com/lets-set-up-your-own-helm-chart-repo-and-start-publishing-charts-9d89d259986c
+
+
 ## Usage
 
 1. Add or update a Helm chart: push your source code of Helm chart under `charts/<your chart>`
